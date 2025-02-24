@@ -18,7 +18,7 @@ A production-grade, containerized geospatial application that simulates and visu
 ## Overview
 
 SmartCity Dashboard is a full-stack geospatial application that:
-- Simulates real-time urban data.
+- Simulates real-time urban data. and connects to an API for real arrival data from the City of London.
 - Visualizes data on an interactive map.
 - Uses a robust FastAPI backend with a PostGIS-enabled PostgreSQL database.
 - Features a polished React frontend with Material UI and Mapbox GL.
@@ -29,7 +29,7 @@ SmartCity Dashboard is a full-stack geospatial application that:
 - **Real-time Data Simulation**  
   - Traffic sensor simulation with randomized speed and congestion levels.
   - Public transport simulation with live bus position updates.
-  - TfL stop arrival predictions fetched via the TfL API.
+  - TfL stop arrival predictions fetched via the TfL (transport For London) API.
   
 - **Interactive Map Visualization**  
   - Mapbox GL-powered interactive map.
@@ -48,7 +48,7 @@ SmartCity Dashboard is a full-stack geospatial application that:
   Provides RESTful endpoints for:
   - Traffic data (from simulated sensors).
   - Public transport data (from simulated bus movements).
-  - Live TfL stop arrival data.
+  - Live TfL stop arrival data (Pulled via the Transport For London API).
   
 - **Database:**  
   A PostGIS-enabled PostgreSQL database stores spatial data.
