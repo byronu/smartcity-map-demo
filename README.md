@@ -1,4 +1,4 @@
-# SmartCity Dashboard
+# SmartCity Map
 
 A production-grade, containerized geospatial application that simulates and visualizes live urban data—including traffic sensor readings, public transport positions, and TfL stop arrival predictions. This project serves as a portfolio piece demonstrating full-stack geospatial development skills.
 
@@ -17,7 +17,7 @@ A production-grade, containerized geospatial application that simulates and visu
 
 ## Overview
 
-SmartCity Dashboard is a full-stack geospatial application that:
+SmartCity Map is a full-stack geospatial application that:
 - Simulates real-time urban data. and connects to an API for real arrival data from the City of London.
 - Visualizes data on an interactive map.
 - Uses a robust FastAPI backend with a PostGIS-enabled PostgreSQL database.
